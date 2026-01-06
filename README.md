@@ -34,8 +34,22 @@ O projeto evidencia habilidades importantes para o mercado:
 * Uso de variáveis de ambiente
 * Manipulação de dados de entrada e saída
 
-  estrutura <img width="963" height="90" alt="Captura de tela 2026-01-01 222157" src="https://github.com/user-attachments/assets/a35d1cd2-b028-4f12-8a9e-6b339ba508da" />
-  <img width="554" height="354" alt="Captura de tela 2025-12-31 211428" src="https://github.com/user-attachments/assets/034be995-08cb-4eb5-940a-48d548c2b798" />
+* Para testar localmente clone o projeto
+*  crie uma chave da api openai
+*  adicione o arquivo .env no projeto e escreva a chave na constante OPENAI_KEY=
+*  utilize o Thunder para simular o frontend
+  Formato da requisição: http://localhost:3001/api/receita/perguntar
+  no body em formato json:
+    {
+      "pergunta":"torta de maça"
+    }
+<img width="1472" height="894" alt="image" src="https://github.com/user-attachments/assets/6187e2bf-5aa2-4434-aded-21b6a272ec88" />
 
+
+  estrutura 
+
+  <img width="554" height="354" alt="Captura de tela 2025-12-31 211428" src="https://github.com/user-attachments/assets/38fa9f7a-855f-4c25-861b-daa958940f0f" />
+  <img width="963" height="90" alt="Captura de tela 2026-01-01 222157" src="https://github.com/user-attachments/assets/c8913a83-39f2-4b02-8218-d098bc2c8d80" />
 
   
+
